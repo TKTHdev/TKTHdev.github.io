@@ -64,19 +64,13 @@
 
 .icon-btn:hover {
   transform: scale(1.10);
-  color: #FFFFFF;
+  color: #000080;
 }
 
-.linkedin:hover {
-  background-color: #0077b5;
-}
-
-.angellist:hover {
-  background-color: grey;
-}
-
+.linkedin:hover,
+.angellist:hover,
 .github:hover {
-  background-color: black;
+  background-color: #000080;
 }
 
 /* Buttons - Read Me, Contact Us */
@@ -85,7 +79,7 @@
   position: relative;
   padding: 11px 35px;
   background: #fff;
-  color: #00796b;
+  color: #000080;
   border: 2px solid #fff;
   font-weight: 600;
   font-size: 15px;
@@ -94,11 +88,6 @@
   border-radius: 5px;
   -webkit-border-radius: 5px;
 }
-
-/* .readme:hover{
-  color: white;
-  background-color: #00796b;
-} */
 
 .contactme {
   position: relative;
@@ -116,7 +105,7 @@
 }
 
 .contactme:hover{
-  color: #00796b;
+  color: #000080;
   background-color: white;
 }
 /* main body */
@@ -128,31 +117,13 @@ body {
   font-size: 18px;
 }
 
-/* body {
-  color: black;
-  font-size: 18px;
-} */
-
 /* main a -- links */
 
-/* a {
-  color: #009688;
-} */
-
 a {
-  color: #004d40;
+  color: #000080;
 }
 
-/* main blockqoute */
-
-/* blockquote {
-  border-left: 5px solid #795548;
-  color: #795548;
-  font-size: 125%;
-  font-weight: 400;
-  margin: 20px 0;
-  padding-left: 1.5rem;
-} */
+/* main blockquote */
 
 blockquote {
   border-left: 5px solid #795548;
@@ -180,12 +151,6 @@ nav {
   height: 0;
 }
 
-/* nav {
-  background: rgb(149, 126, 212);
-  box-shadow: none;
-  height: 0;
-} */
-
 nav i {
   padding: 0 15px;
   position: relative;
@@ -193,11 +158,6 @@ nav i {
 }
 
 /* main */
-
-/* main {
-  background: url(../../assets/img/bg.png) repeat;
-  padding-left: 190px;
-} */
 
 main {
   background: url(../../assets/img/bg.png) repeat;
@@ -227,14 +187,6 @@ ul.side-nav li {
   padding: 0;
 }
 
-/* ul.side-nav.fixed a {
-  box-sizing: content-box;
-  color: rgb(48, 122, 207);
-  display: block;
-  line-height: 100%;
-  padding: 10px 0 12px;
-} */
-
 ul.side-nav.fixed a {
   box-sizing: content-box;
   color: rgb(16, 202, 56);
@@ -242,19 +194,6 @@ ul.side-nav.fixed a {
   line-height: 100%;
   padding: 10px 0 12px;
 }
-
-ul.table-of-contents li.logo a.active, ul.table-of-contents li.logo a:hover {
-  border: none;
-  font-weight: 200;
-}
-
-/* ul.side-nav.fixed li.logo {
-  background-color: #fafafa;
-  border-bottom: 1px solid #ddd;
-  box-sizing: content-box;
-  min-height: 90px;
-  padding: 30px 30px 40px;
-} */
 
 ul.side-nav.fixed li.logo {
   background-color: #fafafa;
@@ -312,15 +251,8 @@ h3 {
   height: 100vh;
 }
 
-/* Original */
-
-/* #intro.section {
-  background: url(../../assets/img/white-ai-wallpaper.jpg) no-repeat top center/cover;
-  position: relative;
-} */
-
 #intro.section {
-  background: #a7ffeb repeat;
+  background: #000080 repeat;
   position: relative;
 }
 
@@ -332,18 +264,9 @@ h3 {
   top: 0;
 }
 
-/* #intro.section .container *:not(span) {
-  font-weight: 300;
-  line-height: 150%;
-  padding: 0 30px;
-  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
-} */
-
 #intro.section .container *:not(span) {
   font-weight: 300;
-  /* font-weight: 400; */
   line-height: 150%;
-  /* padding: 0 0px; */
   text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
 }
 
@@ -414,7 +337,7 @@ h3 {
 }
 
 #experience .card-action {
-  background-color: rgba(0, 0, 0, 0.02);
+  background-color: rgba(0,0,0,0.02);
   border: none;
 }
 
@@ -451,7 +374,7 @@ h3 {
 }
 
 .card .card-content .card-title {
-  line-height: 2.5rem;
+  line-height: 2.5rem
 }
 
 .card i.right {
@@ -461,19 +384,13 @@ h3 {
 a.hoverline {
   border-bottom: 3px solid transparent !important;
   padding: 3px 3px 0 3px;
-  transition: 0.25s all;
-  -moz-transition: 0.25s all;
-  -webkit-transition: 0.25s all;
+  transition: .25s all;
+  -moz-transition: .25s all;
+  -webkit-transition: .25s all;
 }
 
-/* main a.hoverline */
-
-/* a.hoverline:hover {
-  border-bottom: 3px solid #24305e !important;
-} */
-
 a.hoverline:hover {
-  border-bottom: 3px solid #004d40 !important;
+  border-bottom: 3px solid #000080 !important;
 }
 
 #skills .card.large {
@@ -482,7 +399,7 @@ a.hoverline:hover {
 
 #skills h4 {
   border-bottom: 1px solid #ddd;
-  margin-bottom: 30px;
+  margin-bottom: 30px; 
   padding-bottom: 20px;
 }
 
@@ -492,7 +409,7 @@ a.hoverline:hover {
   padding-bottom: 10px;
   text-align: center;
   vertical-align: middle;
-  display: table-cell;
+  display: table-cell;  
 }
 
 .card.large .card-content p {
@@ -503,7 +420,7 @@ a.hoverline:hover {
 
 #experience .card-content .row {
   border-bottom: 1px solid #ddd;
-  padding-bottom: 10px;
+  padding-bottom: 10px;  
 }
 
 .card.large .card-image {
@@ -538,33 +455,19 @@ a.hoverline:hover {
   top: 2px;
 }
 
-small {
-  display: none;
-}
+small { display: none; }
 
 .grey-text {
   color: #666 !important;
 }
 
-/* main .teal-text */
-
 .teal-text {
-  color: #008073 !important;
+  color: #000080 !important;
 }
-
-/* .teal-text {
-  color: #0b5e86 !important;
-} */
-
-/* .teal */
 
 .teal {
-  background-color: #008073 !important;
+  background-color: #000080 !important;
 }
-
-/* .teal {
-  background-color: #00695c !important;
-} */
 
 @media (min-width: 1200px) {
   #experience .container {
@@ -607,7 +510,7 @@ small {
     line-height: 56px;
   }
   h3 {
-    padding: 20px 30px;
+    padding: 20px 30px;  
     margin-bottom: 40px;
   }
   .container {
@@ -627,7 +530,7 @@ small {
     width: 100%;
     position: absolute;
   }
-  .name-title>span, .name-title>a {
+  .name-title > span, .name-title > a {
     position: relative;
     line-height: 20px;
   }
